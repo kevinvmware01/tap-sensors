@@ -2,7 +2,7 @@ apiVersion: services.apps.tanzu.vmware.com/v1alpha1
 kind: ResourceClaim
 metadata:
   name: sensors-rabbit-claim
-  namespace: my-apps
+  namespace: miuser042
 spec:
   ref:
     apiVersion: rabbitmq.com/v1beta1
